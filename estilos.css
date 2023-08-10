@@ -1,0 +1,95 @@
+html {
+  font-family: "Indie Flower", cursive;
+  font-family: "Oswald", sans-serif;
+}
+.Encabezado {
+  border: 3px black double;
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+}
+#controls {
+  float: right;
+  width: 120px;
+  height: 15px;
+}
+#bits {
+  text-align: right;
+  font-size: small;
+  font-style: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: black;
+}
+body {
+  background-image: url("images/escenario.jpg");
+  background-size: cover;
+}
+#capitulo {
+  text-align: center;
+  font-size: xx-large;
+  font-style: oblique;
+  color: rgb(49, 63, 50);
+}
+.alineado {
+  float: left;
+  margin-right: 15px;
+  border: 3px #0e221e solid;
+  border-radius: 5px;
+}
+.cuerpo {
+  color: rgb(21, 32, 27);
+  font-size: x-large;
+  text-align: justify;
+  text-shadow: 2px 4px 3px white;
+}
+h1 {
+  margin-top: 0px;
+  margin-bottom: 2px;
+}
+footer {
+  align-items: baseline;
+  text-align: right;
+}
+#copyright {
+  font-size: x-small;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: azure;
+  text-align: left;
+  position: absolute;
+  bottom: 0;
+}
+#volver {
+  vertical-align: right;
+  padding: 5px 7px 10px 6px;
+  background-color: #f8f404;
+  color: #0e221e;
+  text-align: right;
+  font-size: small;
+  font-style: italic;
+  border-radius: 10px;
+  border: 2px #0e221e solid;
+}
+.boton {
+  vertical-align: center;
+  padding: 3px 5px 8px 4px;
+  background-color: #f6d33a;
+  color: #59cab4;
+  font-style: normal;
+  border-radius: 10px;
+  border: 2px #0e221e solid;
+  transition: 0.85s;
+}
+
+.boton-slide {
+  color: #259425;
+  font-weight: bolder;
+}
+
+.boton-slide:hover,
+.boton-slide:focus {
+  border-color: aquamarine;
+  color: #f6d33a;
+  box-shadow: inset 10em 0 0 0  #259425;
+}
